@@ -2,7 +2,7 @@ var global = {
     config: {
         nIntervaloVitoriasModalAvaliar: 5,
         cacheForceClear: false,
-        pastaAudios: "/src/audios/",
+        pastaAudios: "src/audios/",
         front: {
             // host: "https://www.stopstop.planetsgames.com.br/jogar"
             host: "http://localhost:5500"
