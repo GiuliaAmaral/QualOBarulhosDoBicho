@@ -1,0 +1,24 @@
+<div id="cenas_acertou">
+  <div class="center-text">
+      <br />
+      <span>Pontos: <span id="pontos"> </span> </span>
+  </div>
+
+  <div class="center-vertical">
+    <div class="center-text center-vertical-item">
+      <i class="fad fa-check fa-3x animated rotateInDownRight" style="color: #fff"></i>
+      <h1></h1>
+      <p></p>
+      <div class="conteudoAdd"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready(function () {
+  $("#cenas_acertou h1").html();
+  $("#cenas_acertou p").html();
+  $("#cenas_acertou .conteudoAdd").html();
+  $("#cenas_acertou #pontos").html(global.jogo.pontosAtual);
+});
+</script>

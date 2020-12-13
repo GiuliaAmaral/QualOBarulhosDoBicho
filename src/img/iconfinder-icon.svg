@@ -1,0 +1,20 @@
+<svg width="300.00000000000006" height="300.00000000000006" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_2" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="7.7333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m81.825,108l-17.95,0c-11.051,0 -22.583,-8.581 -25.763,-19.18l-6.245,-20.82l55.999,0"/>
+  <path id="svg_3" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="7.7333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m222.162,108l21.696,0c11.051,0 22.583,-8.581 25.763,-19.18l6.246,-20.82l-58.705,0"/>
+  <path id="svg_4" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m91.867,46.028c0,-5.539 4.439,-10.028 10,-10.028c5.523,0 10,4.487 10,10.028l0,21.972l-20,0l0,-21.972z"/>
+  <path id="svg_5" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m195.867,46.028c0,-5.539 4.439,-10.028 10,-10.028c5.523,0 10,4.487 10,10.028l0,21.972l-20,0l0,-21.972z"/>
+  <polyline id="svg_6" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="7.7333" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" points="   76.493,166.573 87.867,68 215.867,68 227.246,166.623  "/>
+  <path id="svg_7" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="m67.867,187.974c0,-15.45 12.559,-27.974 28.025,-27.974l111.95,0c15.478,0 28.025,12.522 28.025,27.974l0,32.043c0,28.71 -23.271,51.984 -52.006,51.984l-63.989,0c-28.722,0 -52.006,-23.274 -52.006,-51.984l0,-32.043l0.001,0z"/>
+  <circle id="svg_8" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" r="16" cy="216" cx="187.867"/>
+  <circle id="svg_9" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" r="16" cy="216" cx="115.867"/>
+  <circle id="svg_10" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" r="8" cy="132" cx="127.867"/>
+  <circle id="svg_11" fill-rule="evenodd" clip-rule="evenodd" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" r="8" cy="132" cx="175.867"/>
+ </g>
+</svg>

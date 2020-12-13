@@ -1,0 +1,24 @@
+{
+    "dir": "ltr",
+	"lang" : "Portuguese",
+    "name": "Qual o Barulho do Bicho",
+    "scope": "/",
+	"display" : "fullscreen",
+    "start_url": "https://stopstop.planetsgames.com.br/jogar",
+    "short_name": "StopStop",
+	"theme_color" : "#6D7BF8",
+    "description": "Um jogo divertido para toda família que quer descobrir os sons de variados animais terraqueos ou não.",
+    "orientation": "portrait",
+	"background_color" : "#6D7BF8",
+    "related_applications": [],
+    "prefer_related_applications": false,
+    "icons": [
+        {
+			"src": "https://stopstop.planetsgames.com.br/jogar/src/img/logotipo.png",
+            "type": "image/png",
+            "sizes": "122x127"
+        }
+    ],
+	"screenshots" : [],
+	"generated" : "true"
+}

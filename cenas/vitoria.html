@@ -1,0 +1,43 @@
+<div id="cenas_vitoria">
+  <div class="fireworks"></div>
+  <div class="center-vertical">
+    <div class="center-text center-vertical-item">
+      <i class="fad fa-trophy-alt fa-4x animated jackInTheBox"></i>
+      <h1>Vitóriiaaaa!!!</h1>
+      <p>Você conseguiu acertar todas os barulhos, e ganhou <span id="pontos">0</span> pontos.</p>
+      <button onclick='mudarCena("inicio")' type="button" class="btn btn-stopstop">Voltar ao Início</button>
+      <div class="conteudoAdd"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+  $(document).ready(function () {
+    $("#cenas_vitoria h1").html();
+    $("#cenas_vitoria p").html();
+    $("#cenas_vitoria #pontos").html(global.jogo.pontosAtual);
+    $("#cenas_vitoria .conteudoAdd").html();
+    global.jogo.pontosTotais = global.jogo.pontosTotais + global.jogo.pontosAtual;
+    localStorage.setItem('pontosTotais', global.jogo.pontosTotais);
+
+
+    // Contar vitorias
+    var nVitorias = localStorage.getItem("nVitorias");
+    console.log(String(nVitorias));
+    if ((String(nVitorias) == "NaN") || (String(nVitorias) == "null")) {
+      nVitorias = "1";
+      localStorage.setItem("nProximaModalAvaliar", "1");
+    } else {
+      nVitorias = parseInt(nVitorias) + 1;
+    }
+    localStorage.setItem("nVitorias", nVitorias);
+
+    // Abrir modal de avaliação
+    setTimeout(() => {
+      if (localStorage.getItem("nVitorias") == localStorage.getItem("nProximaModalAvaliar")) {
+        localStorage.setItem("nProximaModalAvaliar", parseInt(nVitorias) + global.config.nIntervaloVitoriasModalAvaliar)
+        modalAtivar("avalie");
+      }
+    }, 1000);
+  });
+</script>
