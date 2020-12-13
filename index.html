@@ -7,7 +7,8 @@
     <title>Qual o Barulho do Bicho</title>
     <meta name="copyright" content="© 2020 - RUGIU - Todos os direitos reservados">
     <meta name="keywords" content="jogo, bicho, animal, animais, som">
-    <meta name="description" content="Um jogo divertido para toda família que quer descobrir os sons de variados animais terraqueos ou não." />
+    <meta name="description"
+        content="Um jogo divertido para toda família que quer descobrir os sons de variados animais terraqueos ou não." />
     <meta name="author" content="Rubens - Giu">
     <meta name="theme-color" content="#6D7BF8">
     <meta name="msapplication-navbutton-color" content="#6D7BF8">
@@ -45,5 +46,13 @@
 <body>
     <p class="center-text">Carregando...</p>
 </body>
+
+<script src="pwabuilder-sw.js"></script>
+<script>
+    import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+
+    const el = document.createElement('pwa-update');
+    document.body.appendChild(el);
+</script>
 
 </html>
