@@ -4,8 +4,8 @@ var global = {
         cacheForceClear: false,
         pastaAudios: "src/audios/",
         front: {
-            // host: "https://www.stopstop.planetsgames.com.br/jogar"
-            host: "http://localhost:5500"
+            host: "https://giuliaamaral.github.io/QualOBarulhosDoBicho"
+            // host: "http://localhost:5500"
         },
     },
     jogo: {
