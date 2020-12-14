@@ -17,7 +17,7 @@
     $("#cenas_vitoria p").html();
     $("#cenas_vitoria #pontos").html(global.jogo.pontosAtual);
     $("#cenas_vitoria .conteudoAdd").html();
-    global.jogo.pontosTotais = global.jogo.pontosTotais + global.jogo.pontosAtual;
+    global.jogo.pontosTotais = parseInt(global.jogo.pontosTotais) + parseInt(global.jogo.pontosAtual);
     localStorage.setItem('pontosTotais', global.jogo.pontosTotais);
 
 
