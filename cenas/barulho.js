@@ -7,7 +7,7 @@ async function barulhoErrou() {
 }
 
 async function barulhoAcertou() {
-    if (global.jogo.nBarulhoAtual >= (global.jogo.barulhos.length-1)) {
+    if (global.jogo.nBarulhoAtual >= (5-1)) {
         // Vitoriaa
         global.jogo.pontosAtual = global.jogo.pontosAtual + 10;
         await mudarCena('vitoria');

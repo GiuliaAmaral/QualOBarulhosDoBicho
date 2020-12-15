@@ -22,7 +22,7 @@ var global = {
                 audio: "BARK.wav"
             },
             {
-                nomeDoBicho: "Pasarinho",
+                nomeDoBicho: "Pássaro",
                 audio: "BIRD1.wav"
             },
             {

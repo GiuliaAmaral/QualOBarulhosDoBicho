@@ -32,7 +32,7 @@
       if (nomeBarulhoAtual === element.nomeDoBicho) {
         htmlBtns += '<button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoAcertou();">' + element.nomeDoBicho + '</button> ';
       }
-      if ((nBtnsAtual < 3) && (nomeBarulhoAtual !== element.nomeDoBicho)) {
+      if ((nBtnsAtual < 4) && (nomeBarulhoAtual !== element.nomeDoBicho)) {
         htmlBtns += '<button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoErrou();">' + element.nomeDoBicho + '</button> ';
         nBtnsAtual++;
       }
