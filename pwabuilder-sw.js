@@ -31,6 +31,13 @@ if (global.config.precache) {
     global.config.front.host + "/cenas/barulho.js",
     global.config.front.host + "/cenas/vitoria.html"
   );
+
+  global.jogo.barulhos.forEach(barulho => {
+    precacheFiles.push(
+      global.config.front.host + "/" +  global.config.pastaAudios + barulho.audio
+    );
+  });
+  
 }
 
 self.addEventListener("install", function (event) {
