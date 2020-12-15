@@ -1,0 +1,5 @@
+[{
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target" : { "namespace": "android_app", "package_name": "barulhobicho.planetsgames.com.br",
+                 "sha256_cert_fingerprints": ["97:8A:7B:0B:26:F0:6A:BF:AA:2C:80:A8:5B:28:84:5C:72:8B:13:B7:6A:74:7A:98:7A:DE:31:9A:C9:D2:1B:4E"] }
+  }]
