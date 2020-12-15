@@ -1,0 +1,25 @@
+{
+  "packageId": "barulhobicho.planetsgames.com.br",
+  "host": "giuliaamaral.github.io",
+  "name": "Qual o Barulho do Bicho",
+  "launcherName": "Qual o Barulho do Bicho",
+  "themeColor": "#6D7BF8",
+  "navigationColor": "#000000",
+  "backgroundColor": "#6D7BF8",
+  "enableNotifications": false,
+  "startUrl": "/QualOBarulhosDoBicho",
+  "iconUrl": "https://giuliaamaral.github.io/QualOBarulhosDoBicho/src/img/APP-Icon.png",
+  "maskableIconUrl": "https://giuliaamaral.github.io/QualOBarulhosDoBicho/src/img/APP-Icon.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "alias": "android",
+    "path": "./android.keystore"
+  },
+  "appVersionName": "2",
+  "appVersionCode": 2,
+  "shortcuts": [],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://giuliaamaral.github.io/QualOBarulhosDoBicho/manifest.json",
+  "fallbackType": "customtabs",
+  "appVersion": "2"
+}
