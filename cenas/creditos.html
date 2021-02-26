@@ -1,0 +1,35 @@
+<div id="cenas_creditos">
+    <div class="center-text">
+        <br />
+        <span>Total de pontos: <span id="pontosTotais"> </span> </span>
+    </div>
+    <div class="center-vertical">
+        <div class="center-text center-vertical-item lista-creditos">
+            <p><b>Idealista:</b> <a href="https://github.com/GiuliaAmaral" target="_blank">Giulia Amaral</a></p>
+            <p><b>Desenvolvedor:</b> <a href="https://github.com/JotinhaBR" target="_blank">Rubens Flinco</a></p>
+            <p><b>Distribuidora:</b> <a href="https://www.planetsgames.com.br/" target="_blank">Planets Games</a></p>
+            <br/>
+            <p><b>Créditos para outros autores:</b></p>
+            <a href="https://br.freepik.com/vetores/bebe" target="_blank">Bebê vetor criado por user2104819 - br.freepik.com</a>
+            <a href="https://br.freepik.com/vetores/personagem" target="_blank">Personagem vetor criado por pch.vector - br.freepik.com</a>
+            <a href="https://br.freepik.com/vetores/mao" target="_blank">Mão vetor criado por pikisuperstar - br.freepik.com</a>
+            <a href="https://br.freepik.com/vetores/projeto" target="_blank">Projeto vetor criado por freepik - br.freepik.com</a>
+            <a href='https://br.freepik.com/vetores/mao' target="_blank">Mão vetor criado por terdpongvector - br.freepik.com</a>
+            <a href='https://br.freepik.com/vetores/natureza' target="_blank">Natureza vetor criado por brgfx - br.freepik.com</a>
+            <a href='https://br.freepik.com/vetores/flyer' target="_blank">Flyer vetor criado por pch.vector - br.freepik.com</a>
+        </div>
+    </div>
+
+    <!-- <p class="versao">V</p> -->
+    <div class="links-direta-baixo">
+        <button onclick="mudarCena('inicio')" class="btn btn-link" style="color: #fff;">
+            <i class="fa fa-home fa-2x"></i>
+        </button>
+    </div>
+</div>
+
+<script>
+    $(document).ready(function () {
+        $("#cenas_creditos #pontosTotais").html(global.jogo.pontosTotais);
+    });
+</script>

@@ -5,8 +5,9 @@
     <div class="center-text center-vertical-item">
       <h2 class="pergunta"></h2>
 
-      <button type="button" class="btn btn-play-audio" title="Clique para repetir o som!"> <i
-          class="fad fa-play-circle fa-5x"></i> </button>
+      <button type="button" class="btn btn-play-audio" title="Clique para repetir o som!">
+        <i class="fad fa-play-circle fa-5x"></i>
+      </button>
 
       <br /><br />
 
@@ -24,16 +25,28 @@
     var nBtnsAtual = 0;
     var barulhosBtns = global.jogo.barulhos;
     var nomeBarulhoAtual = global.jogo.barulhos[global.jogo.nBarulhoAtual]["nomeDoBicho"];
-    var elementAudio = new Audio(global.config.pastaAudios + global.jogo.barulhos[global.jogo.nBarulhoAtual]["audio"]);
-    elementAudio.play();
+    global.jogo.elementAudio = new Audio(global.config.pastaAudios + global.jogo.barulhos[global.jogo.nBarulhoAtual]["audio"]);
+    global.jogo.elementAudio.play();
 
     for (let index = 0; index < barulhosBtns.length; index++) {
       const element = barulhosBtns[index];
       if (nomeBarulhoAtual === element.nomeDoBicho) {
-        htmlBtns += '<button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoAcertou();">' + element.nomeDoBicho + '</button> ';
+        htmlBtns += `
+          <button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoAcertou();">
+            <img src="${global.config.pastaIlustacoes}${element.ilustracao}" alt="Ilustração do bicho." />
+            <br/>
+            ${element.nomeDoBicho}
+          </button> 
+          `;
       }
       if ((nBtnsAtual < 4) && (nomeBarulhoAtual !== element.nomeDoBicho)) {
-        htmlBtns += '<button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoErrou();">' + element.nomeDoBicho + '</button> ';
+        htmlBtns += `
+          <button type="button" class="btn btn-stopstop btn-lg" onClick="barulhoErrou();">
+            <img src="${global.config.pastaIlustacoes}${element.ilustracao}" alt="Ilustração do bicho." />
+            <br/>
+            ${element.nomeDoBicho}
+          </button> 
+          `;
         nBtnsAtual++;
       }
     }
@@ -42,7 +55,18 @@
 
 
     $("#cenas_barulho .btn-play-audio").click(e => {
-      elementAudio.play();
+      if (global.jogo.elementAudio.paused) {
+        global.jogo.elementAudio.play();
+      } else {
+        global.jogo.elementAudio.pause();
+      }
     });
+
+    global.jogo.elementAudio.onpause = function () {
+      $("#cenas_barulho .btn-play-audio").html(`<i class="fad fa-play-circle fa-5x"></i>`);
+    };
+    global.jogo.elementAudio.onplay = function () {
+      $("#cenas_barulho .btn-play-audio").html(`<i class="fad fa-pause-circle fa-5x"></i>`);
+    };
   });
 </script>

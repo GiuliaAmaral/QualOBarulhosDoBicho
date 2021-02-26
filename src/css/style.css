@@ -29,6 +29,7 @@ a:hover{
 
 .btn-play-audio i{
     color: #fff;
+    text-shadow: 2px 4px 5px #000;
     transition: 0.5s;
 }
 
@@ -39,7 +40,6 @@ a:hover{
 
 .btn-play-audio:focus i{
     color: rgba(255, 255, 255, 1);
-    text-shadow: 2px 4px 5px #000;
     transition: 0.5s;
 }
 
@@ -84,6 +84,23 @@ a:hover{
     margin-right: 25px;
     color: #fff;
     font-size: large;
+}
+
+.links-direta-baixo .btn-link{
+    margin: 0px;
+    padding: 0px;
+}
+
+.links-direta-baixo a,
+.links-direta-baixo .btn-link{
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.lista-creditos a{
+    color: #fff;
+    display: block;
 }
 
 .center-text{

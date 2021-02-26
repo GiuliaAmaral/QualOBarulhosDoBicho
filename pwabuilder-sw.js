@@ -36,6 +36,9 @@ if (global.config.precache) {
     precacheFiles.push(
       global.config.front.host + "/" +  global.config.pastaAudios + barulho.audio
     );
+    precacheFiles.push(
+      global.config.front.host + "/" +  global.config.pastaIlustacoes + barulho.ilustracao
+    );
   });
   
 }

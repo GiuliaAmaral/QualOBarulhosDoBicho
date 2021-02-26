@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="100"
+   viewBox="0 0 26.458333 26.458333"
+   version="1.1"
+   id="svg523"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
+   sodipodi:docname="tema-ilustracoes-inkscape.svg"
+   inkscape:export-filename="/home/giu/Documentos/GitHub/QualOBarulhosDoBicho/src/img/ilustracoes/gaivota.png"
+   inkscape:export-xdpi="96.400002"
+   inkscape:export-ydpi="96.400002">
+  <defs
+     id="defs517">
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath176">
+      <path
+         d="m 3287.72,2377.22 c 0,0 104.38,-231.92 180.71,-288.85 42.26,-31.51 190.67,-67.24 361.29,-62.11 137.6,4.13 308.88,92.95 424.68,15.01 172.64,-116.19 150.43,-602.27 28.68,-733.45 -144.49,-155.66 -736.04,-163.78 -897.56,-12.59 -127.17,119.04 -59.65,596.92 -206.91,748.16 l 109.11,333.83"
+         id="path174" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath230">
+      <path
+         d="m 2949.44,2388.11 c -31.17,-69.3 -222.88,-381.79 -223.96,-678.57 -0.57,-155 179.52,-208.01 362.92,-217.94 127.34,-6.9 262.28,-33.8 302.63,51.73 108.82,230.66 49.87,671.47 47.56,759.9 l -5.03,2.49 c -149.84,74.22 -318.16,102.86 -484.12,82.39"
+         id="path228" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath176-3">
+      <path
+         d="m 3287.72,2377.22 c 0,0 104.38,-231.92 180.71,-288.85 42.26,-31.51 190.67,-67.24 361.29,-62.11 137.6,4.13 308.88,92.95 424.68,15.01 172.64,-116.19 150.43,-602.27 28.68,-733.45 -144.49,-155.66 -736.04,-163.78 -897.56,-12.59 -127.17,119.04 -59.65,596.92 -206.91,748.16 l 109.11,333.83"
+         id="path174-6" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath230-7">
+      <path
+         d="m 2949.44,2388.11 c -31.17,-69.3 -222.88,-381.79 -223.96,-678.57 -0.57,-155 179.52,-208.01 362.92,-217.94 127.34,-6.9 262.28,-33.8 302.63,51.73 108.82,230.66 49.87,671.47 47.56,759.9 l -5.03,2.49 c -149.84,74.22 -318.16,102.86 -484.12,82.39"
+         id="path228-5" />
+    </clipPath>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="5.68"
+     inkscape:cx="29.488928"
+     inkscape:cy="86.935618"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     units="px"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1920"
+     inkscape:window-height="966"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata520">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1" />
+</svg>
