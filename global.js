@@ -5,8 +5,8 @@ var global = {
         pastaAudios: "src/audios/",
         pastaIlustacoes: "src/img/ilustracoes/",
         front: {
-            // host: "https://giuliaamaral.github.io/QualOBarulhosDoBicho"
-            host: "http://localhost:5500"
+            host: "https://giuliaamaral.github.io/QualOBarulhosDoBicho"
+            // host: "http://localhost:5500"
         },
     },
     jogo: {
